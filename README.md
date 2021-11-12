@@ -1,5 +1,6 @@
 # Tello_Control
 ### コマンド
+基本的に、tello_driverがsubscribeしている同名のトピックに、入力情報を流し込んでいる(位置調整は例外)。
 - takeoff : 離陸
 - land  : 着陸
 - emergency : モーターが止まる
